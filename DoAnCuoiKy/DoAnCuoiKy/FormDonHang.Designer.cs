@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -51,11 +52,22 @@
             this.labelControl1.Text = "Nhap ma giam gia de kiem tra";
             this.labelControl1.Click += new System.EventHandler(this.labelControl1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(37, 113);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(174, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Áp dụng mã giảm giá";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // FormDonHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.button1);
             this.Name = "FormDonHang";
@@ -69,5 +81,6 @@
 
         private System.Windows.Forms.Button button1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
+        private System.Windows.Forms.Button button2;
     }
 }
