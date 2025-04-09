@@ -31,6 +31,7 @@
             this.dgvOrders = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbUpdate = new System.Windows.Forms.ComboBox();
+            this.btnUpdateStatus = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrders)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,11 +63,21 @@
             this.cmbUpdate.Size = new System.Drawing.Size(121, 24);
             this.cmbUpdate.TabIndex = 2;
             // 
+            // btnUpdateStatus
+            // 
+            this.btnUpdateStatus.Location = new System.Drawing.Point(90, 360);
+            this.btnUpdateStatus.Name = "btnUpdateStatus";
+            this.btnUpdateStatus.Size = new System.Drawing.Size(121, 42);
+            this.btnUpdateStatus.TabIndex = 3;
+            this.btnUpdateStatus.Text = "Cập nhật";
+            this.btnUpdateStatus.UseVisualStyleBackColor = true;
+            // 
             // FormOrders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnUpdateStatus);
             this.Controls.Add(this.cmbUpdate);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvOrders);
@@ -83,5 +94,6 @@
         private System.Windows.Forms.DataGridView dgvOrders;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbUpdate;
+        private System.Windows.Forms.Button btnUpdateStatus;
     }
 }
