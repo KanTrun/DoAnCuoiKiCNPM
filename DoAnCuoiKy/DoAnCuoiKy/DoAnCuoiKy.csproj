@@ -156,6 +156,12 @@
     <Compile Include="Supplier-History.Designer.cs">
       <DependentUpon>Supplier-History.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongKe.Designer.cs">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Write_Order.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,6 +221,9 @@
     </Compile>
     <EmbeddedResource Include="Supplier-History.resx">
       <DependentUpon>Supplier-History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongKe.resx">
+      <DependentUpon>ThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Write_Order.resx">
       <DependentUpon>Write_Order.cs</DependentUpon>
