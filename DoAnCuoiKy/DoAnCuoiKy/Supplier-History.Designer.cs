@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -40,11 +41,21 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "LICH SU NHA CUNG CAP";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(375, 448);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(258, 115);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Loc";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Supplier_History
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1990, 1229);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Supplier_History";
             this.Text = "Supplier_History";
@@ -56,5 +67,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
