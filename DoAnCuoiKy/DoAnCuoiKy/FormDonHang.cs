@@ -21,5 +21,10 @@ namespace DoAnCuoiKy
         {
 
         }
+
+        private void labelControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
