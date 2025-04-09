@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="customer-lookup-by-phone-or-id.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer-lookup-by-phone-or-id.Designer.cs">
+      <DependentUpon>customer-lookup-by-phone-or-id.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDonHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="customer-lookup-by-phone-or-id.resx">
+      <DependentUpon>customer-lookup-by-phone-or-id.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ingredient_consumption_analysis.resx">
       <DependentUpon>Ingredient_consumption_analysis.cs</DependentUpon>
     </EmbeddedResource>
