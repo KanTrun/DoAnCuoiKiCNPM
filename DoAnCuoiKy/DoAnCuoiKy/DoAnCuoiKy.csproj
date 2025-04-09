@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOrder.Designer.cs">
+      <DependentUpon>CheckOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer_Manage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CheckOrder.resx">
+      <DependentUpon>CheckOrder.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer_Manage.resx">
       <DependentUpon>Customer_Manage.cs</DependentUpon>
     </EmbeddedResource>
