@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DoAnCuoiKy
 {
-    public partial class order_management : Form
+    public partial class FormThemMon : Form
     {
-        public order_management()
+        public FormThemMon()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            order_management om = new order_management();
-            om.Show();
-            this.Hide();
         }
     }
 }
