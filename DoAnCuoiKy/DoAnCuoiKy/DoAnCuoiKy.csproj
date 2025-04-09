@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrders.Designer.cs">
+      <DependentUpon>FormOrders.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ingredient_consumption_analysis.cs">
       <SubType>Form</SubType>
     </Compile>
