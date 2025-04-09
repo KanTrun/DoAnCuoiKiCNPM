@@ -20,7 +20,7 @@ namespace DoAnCuoiKy
         private void button2_Click(object sender, EventArgs e)
         {
             Manager_Customer mc = new Manager_Customer();
-            mc.Show()
+            mc.Show();
             this.Hide();
         }
     }
