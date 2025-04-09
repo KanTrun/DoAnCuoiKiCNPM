@@ -23,5 +23,12 @@ namespace DoAnCuoiKy
             frA.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmFindCustomer frmF = new FrmFindCustomer();
+            frmF.Show();    
+            this.Hide();
+        }
     }
 }
