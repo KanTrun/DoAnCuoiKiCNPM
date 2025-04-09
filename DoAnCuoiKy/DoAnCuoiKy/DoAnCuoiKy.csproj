@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ingredient_consumption_analysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingredient_consumption_analysis.Designer.cs">
+      <DependentUpon>Ingredient_consumption_analysis.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ingredient_consumption_analysis.resx">
+      <DependentUpon>Ingredient_consumption_analysis.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

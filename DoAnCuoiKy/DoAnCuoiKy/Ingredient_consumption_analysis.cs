@@ -10,18 +10,21 @@ using System.Windows.Forms;
 
 namespace DoAnCuoiKy
 {
-    public partial class MainForm : Form
+    public partial class Ingredient_consumption_analysis : Form
     {
-        public MainForm()
+        public Ingredient_consumption_analysis()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Ingredient_consumption_analysis frA = new Ingredient_consumption_analysis();
-            frA.Show();
-            this.Hide();
+
+        }
+
+        private void Ingredient_consumption_analysis_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
