@@ -58,6 +58,12 @@
     <Compile Include="CheckOrder.Designer.cs">
       <DependentUpon>CheckOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="Check_History_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check_History_Order.Designer.cs">
+      <DependentUpon>Check_History_Order.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer_Manage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CheckOrder.resx">
       <DependentUpon>CheckOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check_History_Order.resx">
+      <DependentUpon>Check_History_Order.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer_Manage.resx">
       <DependentUpon>Customer_Manage.cs</DependentUpon>
