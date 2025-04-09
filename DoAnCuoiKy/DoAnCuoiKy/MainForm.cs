@@ -16,5 +16,12 @@ namespace DoAnCuoiKy
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Manager_Customer mc = new Manager_Customer();
+            mc.Show()
+            this.Hide();
+        }
     }
 }
