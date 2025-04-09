@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddFavoriteItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFavoriteItems.Designer.cs">
+      <DependentUpon>AddFavoriteItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="CheckOrder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddFavoriteItems.resx">
+      <DependentUpon>AddFavoriteItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CheckOrder.resx">
       <DependentUpon>CheckOrder.cs</DependentUpon>
     </EmbeddedResource>
