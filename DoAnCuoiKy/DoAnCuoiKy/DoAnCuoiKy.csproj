@@ -66,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormOrders.resx">
+      <DependentUpon>FormOrders.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ingredient_consumption_analysis.resx">
       <DependentUpon>Ingredient_consumption_analysis.cs</DependentUpon>
     </EmbeddedResource>
