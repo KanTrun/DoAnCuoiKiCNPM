@@ -23,5 +23,12 @@ namespace DoAnCuoiKy
             frA.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            customer_lookup_by_phone_or_id frC = new customer_lookup_by_phone_or_id();
+            frC.Show();
+            this.Hide();
+        }
     }
 }
