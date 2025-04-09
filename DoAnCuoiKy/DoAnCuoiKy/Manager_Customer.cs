@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAnCuoiKy
 {
-    public partial class Form1 : Form
+    public partial class Manager_Customer : Form
     {
-        public Form1()
+        public Manager_Customer()
         {
             InitializeComponent();
         }
