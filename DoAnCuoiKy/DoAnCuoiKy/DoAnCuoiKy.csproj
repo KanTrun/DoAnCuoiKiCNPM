@@ -82,6 +82,12 @@
     <Compile Include="Earn_Point.Designer.cs">
       <DependentUpon>Earn_Point.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDatTruoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatTruoc.Designer.cs">
+      <DependentUpon>FormDatTruoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDonHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Earn_Point.resx">
       <DependentUpon>Earn_Point.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDatTruoc.resx">
+      <DependentUpon>FormDatTruoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDonHang.resx">
       <DependentUpon>FormDonHang.cs</DependentUpon>
